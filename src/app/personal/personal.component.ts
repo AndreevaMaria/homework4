@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-personal',
@@ -14,9 +13,7 @@ export class PersonalComponent implements OnInit {
     email: 'jb@mail.com',
     phone: '8 999 123 45 67'
     }
-  constructor(
-    private http: HttpClient,
-  ) { }
+    constructor() { }
 
   ngOnInit() {
   }

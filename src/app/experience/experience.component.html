@@ -1,8 +1,9 @@
+<div class="titleBlock valign-wrapper"><i class="material-icons">work</i>{{title}}</div>
   <ul>
     <li *ngFor="let work of works">
-      <p>{{work.timeStart}} - {{work.timeEnd}}</p>
-      <h6>{{work.title}}</h6>
-      <span>{{work.position}}</span>
+      <p class="item">{{work.timeStart}} - {{work.timeEnd}}</p>
+      <div class="titleItem valign-wrapper">{{work.title}}</div>
+      <p>{{work.position}}</p>
        <p>{{work.desc}}</p>
     </li>
   </ul>

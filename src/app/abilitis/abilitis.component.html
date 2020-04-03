@@ -1,0 +1,22 @@
+<h3>{{name}}</h3>
+<p>{{anonce}}</p>
+<div class="titleBlock valign-wrapper"><i class="material-icons">school</i>{{title1}}</div>
+  <ul>
+    <li *ngFor="let item of items1">
+      <p class="item">{{item.period}}</p>
+      <div class="titleItem valign-wrapper">{{item.place}}</div>
+      <p>{{item.study}}</p>
+    </li>
+  </ul>
+  <div class="titleBlock valign-wrapper"><i class="material-icons">check_circle</i>{{title2}}</div>
+  <ul>
+    <li *ngFor="let item of items2">
+      <p><i class="material-icons">check</i>{{item}}</p>
+    </li>
+  </ul>
+  <div class="titleBlock valign-wrapper"><i class="material-icons">star</i>{{title3}}</div>
+  <ul>
+    <li *ngFor="let item of items3">
+      <p class="valign-wrapper"><i class="material-icons">remove</i> {{item}}</p>
+    </li>
+  </ul>

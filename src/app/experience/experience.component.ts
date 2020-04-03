@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-experience',
@@ -7,33 +6,32 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./experience.component.css']
 })
 export class ExperienceComponent implements OnInit {
+  title = "EXPERIENCE"
   works = [
     {
-      timeStart: '10.01.2008',
-      timeEnd: '21.11.2012',
-      title: 'ABC1',
-      position: 'Lorem dolor',
-      desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eaque, consequatur laudantium fugiat similique autem eum deleniti qui architecto nihil dolorem voluptatem ipsa ad facilis consequuntur ducimus veniam. Totam, tenetur!'
+      timeStart: '01.2008',
+      timeEnd: '11.2012',
+      title: 'ABC1 Company',
+      position: 'Manager',
+      desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eaque, consequatur laudantium fugiat similique autem eum deleniti qui architecto nihil dolorem voluptatem.'
     },
     {
-      timeStart: '05.12.2012',
+      timeStart: '12.2012',
       timeEnd: '27.02.2016',
-      title: 'ABC2',
-      position: 'Lorem dolor',
-      desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eaque, consequatur laudantium fugiat similique autem eum deleniti qui architecto nihil dolorem voluptatem ipsa ad facilis consequuntur ducimus veniam. Totam, tenetur!'
+      title: 'ABC2 Company',
+      position: 'Junior Project Manager',
+      desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eaque, consequatur laudantium fugiat similique autem eum deleniti qui architecto nihil dolorem voluptatem ipsa ad facilis.'
     },
     {
-      timeStart: '14.03.2016',
+      timeStart: '03.2016',
       timeEnd: 'till now',
-      title: 'ABC3',
-      position: 'Lorem dolor',
-      desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eaque, consequatur laudantium fugiat similique autem eum deleniti qui architecto nihil dolorem voluptatem ipsa ad facilis consequuntur ducimus veniam. Totam, tenetur!'
+      title: 'ABC3 Company',
+      position: 'Middle Project Manager',
+      desc: 'Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eaque, consequatur laudantium fugiat similique autem eum deleniti qui architecto nihil dolorem voluptatem ipsa.'
     }
 ]
 
-  constructor(
-    private http: HttpClient,
-  ) { }
+  constructor() { }
 
   ngOnInit() {
   }
