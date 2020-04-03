@@ -1,3 +1,8 @@
-<p>
-  experience works!
-</p>
+  <ul>
+    <li *ngFor="let work of works">
+      <p>{{work.timeStart}} - {{work.timeEnd}}</p>
+      <h6>{{work.title}}</h6>
+      <span>{{work.position}}</span>
+       <p>{{work.desc}}</p>
+    </li>
+  </ul>

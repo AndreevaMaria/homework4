@@ -10,7 +10,7 @@ import { PersonalComponent } from './personal/personal.component';
    declarations: [
       AppComponent,
       ExperienceComponent,
-      PersonalComponent
+      PersonalComponent,
    ],
    imports: [
       BrowserModule,
