@@ -1,0 +1,12 @@
+.container {
+  color: white;
+}
+.blue {
+  background-color: rgb(20, 20, 160);
+}
+.black {
+  background-color:  rgb(37, 37, 37);
+}
+.black i {
+  background-color: rgb(20, 20, 160);
+}
