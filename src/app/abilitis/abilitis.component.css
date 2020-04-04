@@ -35,11 +35,11 @@ p i {
 }
 
 .item {
-  margin-top: 25px;
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 5px;
 }
 
 .list {
   margin-bottom: 0px !important;
-  margin-top: 5px;
+  margin-top: 0px !important;
 }
