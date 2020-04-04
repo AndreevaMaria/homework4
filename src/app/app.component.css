@@ -1,11 +1,13 @@
 .container {
   width: 100%;
   padding-top: 30px;
+  padding-bottom: 5px;
+  background-color: rgb(37, 37, 37);
+  color: white;
 }
 
 .blue {
   background-color: rgb(20, 20, 160) !important;
-  color: white;
 }
 
 .col {
