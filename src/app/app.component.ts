@@ -9,4 +9,5 @@ export class AppComponent {
   title = 'CV';
   name = "LANE APPLE";
   anonce = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.';
+  salary = 3500;
 }
