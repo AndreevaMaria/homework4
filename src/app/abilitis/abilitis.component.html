@@ -1,8 +1,6 @@
-<h3>{{name}}</h3>
-<p>{{anonce}}</p>
 <div class="titleBlock valign-wrapper"><i class="material-icons">school</i>{{title1}}</div>
   <ul>
-    <li *ngFor="let item of items1">
+    <li *ngFor="let item of educations">
       <p class="item">{{item.period}}</p>
       <div class="titleItem">{{item.place}}</div>
       <p>{{item.study}}</p>
@@ -10,13 +8,13 @@
   </ul>
   <div class="titleBlock valign-wrapper"><i class="material-icons">check_circle</i>{{title2}}</div>
   <ul>
-    <li *ngFor="let item of items2">
-      <p class="list valign-wrapper"><i class="material-icons">check</i>{{item}}</p>
+    <li *ngFor="let item of skills">
+      <p class="list valign-wrapper"><i class="material-icons">check</i>{{item.skill}}<span class="level">{{item.level | percent}}</span></p>
     </li>
   </ul>
   <div class="titleBlock valign-wrapper"><i class="material-icons">star</i>{{title3}}</div>
   <ul>
-    <li *ngFor="let item of items3">
+    <li *ngFor="let item of serts">
       <p class="list valign-wrapper"><i class="material-icons">remove</i> {{item}}</p>
     </li>
   </ul>

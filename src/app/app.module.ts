@@ -7,6 +7,7 @@ import { ExperienceComponent } from './experience/experience.component';
 import { PersonalComponent } from './personal/personal.component';
 import { AbilitisComponent } from './abilitis/abilitis.component';
 
+
 @NgModule({
    declarations: [
       AppComponent,

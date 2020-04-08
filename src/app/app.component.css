@@ -11,3 +11,12 @@
   padding-left: 0 !important;
 }
 
+h3 {
+  margin-left: 0;
+  border-left: 10px solid  #2962FF;
+  padding: 20px;
+}
+p {
+  margin-left: 40px;
+  margin-top: 10px;
+}

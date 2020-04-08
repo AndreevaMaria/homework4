@@ -5,11 +5,10 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './abilitis.component.html',
   styleUrls: ['./abilitis.component.css']
 })
+
 export class AbilitisComponent implements OnInit {
-  name = "LANE APPLE";
-  anonce = 'Lorem, ipsum dolor sit amet consectetur adipisicing elit.';
   title1 = "EDUCATION";
-  items1 = [
+  educations = [
     {
       period: '2006-2008',
       place: 'Univercity of Cambridge, Cambridge, England',
@@ -22,13 +21,25 @@ export class AbilitisComponent implements OnInit {
     }
   ]
   title2 = 'SKILLS'
-  items2 = ['Lorem, ipsum dolor sit amet.',
-   'Lorem, ipsum dolor sit amet consectetur adipisicing.',
-   'Lorem, ipsum dolor sit amet consectetur.']
+  skills = [
+    {
+      skill: 'Lorem, ipsum dolor sit amet',
+      level: 0.7,
+    },
+    {
+      skill: 'Lorem, ipsum dolor sit amet consectetur adipisicing',
+      level: 0.85,
+    },
+    {
+      skill: 'Lorem, ipsum dolor sit amet amet consectetur',
+      level: 0.75,
+    }
+  ]
 
    title3 = 'CERTIFICATION'
-   items3 = ['Lorem, ipsum dolor sit amet consectetur adipisicing.',
+   serts = ['Lorem, ipsum dolor sit amet consectetur adipisicing.',
     'Lorem, ipsum dolor sit amet consectetur .']
+
   constructor() { }
 
   ngOnInit() {
